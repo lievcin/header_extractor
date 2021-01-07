@@ -1,0 +1,352 @@
+[
+    {
+        "p_id": 0,
+        "p_text": "NON-DISCLOSURE AGREEMENT",
+        "p_start_offset": 0
+    },
+    {
+        "p_id": 1,
+        "p_text": "This Non-Disclosure Agreement (the \u201cAgreement\u201d) is made on 9 January 2014 (\u201cEffective Date\u201d).",
+        "p_start_offset": 24
+    },
+    {
+        "p_id": 2,
+        "p_text": "BETWEEN:",
+        "p_start_offset": 117
+    },
+    {
+        "p_id": 3,
+        "p_text": "Test Co Limited whose operational office is at Merlin Place, Milton Road, Cambridge CB4 0DP (\u201cTest Co\u201d);",
+        "p_start_offset": 125
+    },
+    {
+        "p_id": 4,
+        "p_text": "and",
+        "p_start_offset": 229
+    },
+    {
+        "p_id": 5,
+        "p_text": "Coca-Cola with its registered office at The Coca-Cola Company, P.O. Box 1734, Atlanta, GA 30301 USA (\u201cCompany\u201d).",
+        "p_start_offset": 232
+    },
+    {
+        "p_id": 6,
+        "p_text": "Separately a \u201cparty\u201d and together the \u201cparties\u201d.",
+        "p_start_offset": 344
+    },
+    {
+        "p_id": 7,
+        "p_text": "For the purposes of this Agreement:",
+        "p_start_offset": 392
+    },
+    {
+        "p_id": 8,
+        "p_text": "\u201cConfidential Information\u201d shall mean;",
+        "p_start_offset": 427
+    },
+    {
+        "p_id": 9,
+        "p_text": "Test Co Group confidential information: Business and technical information including specification, business models and roadmap related to Test Co technologies which includes but are not limited to Test Co environments; and",
+        "p_start_offset": 465
+    },
+    {
+        "p_id": 10,
+        "p_text": "Company Group confidential information: Business and technical information including but not limited to specifications, business models and roadmaps related to Company Group\u2019s products and technologies; and",
+        "p_start_offset": 688
+    },
+    {
+        "p_id": 11,
+        "p_text": "where such information designated in writing by either party or its respective Subsidiaries, by appropriate legend, as confidential relating to (i) and (ii) above, as applicable; and",
+        "p_start_offset": 894
+    },
+    {
+        "p_id": 12,
+        "p_text": "any information relating to (i) and (ii) above, as applicable, which if first disclosed orally by either party or its respective Subsidiaries is identified as confidential at the time of disclosure and is thereafter reduced to writing for confirmation and sent to the other party or its respective Subsidiaries within thirty (30) days after its oral disclosure; and",
+        "p_start_offset": 1076
+    },
+    {
+        "p_id": 13,
+        "p_text": "notwithstanding (iii) and (iv) above, any information relating to (i) and (ii) above, as applicable, that should reasonably have been understood by the Recipient to be confidential or proprietary regardless of whether it has been marked, designated or confirmed in writing as such; and",
+        "p_start_offset": 1441
+    },
+    {
+        "p_id": 14,
+        "p_text": "the terms and conditions of this Agreement.",
+        "p_start_offset": 1726
+    },
+    {
+        "p_id": 15,
+        "p_text": "\u201cDisclosing Party\u201d shall mean a party to this Agreement (includes Test Co Group or Company Group) which discloses or makes available directly or indirectly Confidential Information.",
+        "p_start_offset": 1769
+    },
+    {
+        "p_id": 16,
+        "p_text": "\u201cGroup\u201d shall mean in relation to each party that company and its Subsidiaries.",
+        "p_start_offset": 1950
+    },
+    {
+        "p_id": 17,
+        "p_text": "\u201cRecipient\u201d shall mean a party to this Agreement (includes Test Co Group or Company Group) which receives or obtains directly or indirectly Confidential Information from the Disclosing Party.",
+        "p_start_offset": 2029
+    },
+    {
+        "p_id": 18,
+        "p_text": "\u201cSubsidiaries\u201d means any company the majority of whose voting shares is now or hereafter, owned or controlled, directly or indirectly, by a party hereto, as applicable. A company shall be a Subsidiary only for the period during which such control exists.",
+        "p_start_offset": 2220
+    },
+    {
+        "p_id": 19,
+        "p_text": "\"Term\" means the period ending two (2) years from the Effective Date.",
+        "p_start_offset": 2474
+    },
+    {
+        "p_id": 20,
+        "p_text": "_________________________________________",
+        "p_start_offset": 2543
+    },
+    {
+        "p_id": 21,
+        "p_text": "In order to protect certain Confidential Information and in consideration of the benefits to the parties of the disclosure of the Confidential Information, the parties have agreed to comply with the following terms in connection with the use and disclosure of Confidential Information.",
+        "p_start_offset": 2584
+    },
+    {
+        "p_id": 22,
+        "p_text": "1. Purpose or Use:",
+        "p_start_offset": 2869
+    },
+    {
+        "p_id": 23,
+        "p_text": "The Recipient shall make use of the Confidential Information only for the following purpose:",
+        "p_start_offset": 2887
+    },
+    {
+        "p_id": 24,
+        "p_text": "For evaluation and review of future potential business relationships between the parties (\u201cPurpose\u201d)",
+        "p_start_offset": 2979
+    },
+    {
+        "p_id": 25,
+        "p_text": "2. Confidentiality Period:",
+        "p_start_offset": 3079
+    },
+    {
+        "p_id": 26,
+        "p_text": "The obligations contained in this Agreement shall continue for a period of five (5) years from receipt of the particular Confidential Information, regardless of termination of this Agreement.",
+        "p_start_offset": 3105
+    },
+    {
+        "p_id": 27,
+        "p_text": "3. Standard of Care:",
+        "p_start_offset": 3296
+    },
+    {
+        "p_id": 28,
+        "p_text": "Recipient shall: (i) keep the Disclosing Party's Confidential Information confidential; (ii) not use or exploit the Confidential Information in any way except for the Purpose; (iii) not disclose or make available the Confidential Information in whole or in part to any third party, except as expressly permitted by this Agreement; (iv) protect the disclosed Confidential Information by using the same degree of care (but no less than a reasonable degree of care to prevent the unauthorised use, dissemination, or publication of the Confidential Information) as the Recipient uses to protect its own confidential information of a like nature and upon discovery of any actual, threatened or improper disclosure or other misuse of Confidential Information, promptly notify the Disclosing Party and act to prevent any further disclosure or misuse; (v) make the Confidential Information available only to those employees or contractors (together the \u201cRepresentatives\u201d) or members of the Recipient\u2019s Group who need to know such information for the Purpose and are bound by an appropriate obligation of confidentiality no less onerous than the obligations set out in this Agreement; and (vi) not reverse engineer, disassemble or decompile any products, prototypes, software, or other tangible or intangible objects that embody Confidential Information of the Disclosing Party and that are provided to Recipient hereunder (except to the extent that such restriction on disassembly, decompiling or reverse engineering is prohibited by law and then Recipient shall provide Disclosing Party with prompt written notice prior to any such action). At all times the Recipient is responsible for the Representatives\u2019 and its Group\u2019s compliance with the obligations set out in this Agreement as if they were the actions or omissions of the Recipient.",
+        "p_start_offset": 3316
+    },
+    {
+        "p_id": 29,
+        "p_text": "No party shall make, or permit any person to make, any public announcement concerning this Agreement, the Purpose or its prospective interest in the Purpose.",
+        "p_start_offset": 5149
+    },
+    {
+        "p_id": 30,
+        "p_text": "4. Return of information",
+        "p_start_offset": 5306
+    },
+    {
+        "p_id": 31,
+        "p_text": "At the request of the Disclosing Party, the Recipient shall (i) destroy or return to the Disclosing Party all documents and materials (and any copies) containing the Disclosing Party's Confidential Information; and (ii) erase all the Disclosing Party's Confidential Information from its computer systems or which is stored in electronic form (to the extent possible), except that the Recipient may retain copies of the Confidential Information as part of archival records (including backup systems) that Recipient keeps in the ordinary course of its business provided that such Confidential Information shall remain subject to the terms of this Agreement; and (iii) certify in writing to the Disclosing Party that it has complied with the requirements of this clause.",
+        "p_start_offset": 5330
+    },
+    {
+        "p_id": 32,
+        "p_text": "5. Exclusions:",
+        "p_start_offset": 6097
+    },
+    {
+        "p_id": 33,
+        "p_text": "Information received from the Disclosing Party shall not be deemed to be Confidential Information if:",
+        "p_start_offset": 6111
+    },
+    {
+        "p_id": 34,
+        "p_text": "the information is or becomes generally available to the public without breach of this Agreement by the Recipient;",
+        "p_start_offset": 6212
+    },
+    {
+        "p_id": 35,
+        "p_text": "the Disclosing Party agrees in writing by an officer of the Disclosing Party that it can be disclosed by Recipient to a third party without restriction;",
+        "p_start_offset": 6326
+    },
+    {
+        "p_id": 36,
+        "p_text": "the Confidential Information is known to Recipient prior to its receipt from the Disclosing Party without obligations of confidentiality or restrictions on disclosure, and/or later is disclosed to Recipient by a third party without breach of an obligation of confidentiality owed to the Disclosing Party; or",
+        "p_start_offset": 6478
+    },
+    {
+        "p_id": 37,
+        "p_text": "the information is independently developed by the Recipient without use of the Confidential Information.",
+        "p_start_offset": 6785
+    },
+    {
+        "p_id": 38,
+        "p_text": "6. Required Disclosure:",
+        "p_start_offset": 6889
+    },
+    {
+        "p_id": 39,
+        "p_text": "A party may disclose Confidential Information to the extent such Confidential Information is required to be disclosed by law, by any governmental or other regulatory authority, or by a court or other authority of competent jurisdiction provided that, to the extent it is legally permitted to do so, it gives the other party written notice promptly upon receipt of a disclosure requirement and before the disclosure is made and, where notice of disclosure is not prohibited and is given in accordance with this clause, it takes reasonable actions and provides reasonable assistance to the Disclosing Party to secure confidential treatment of the Confidential Information, and discloses only such Confidential Information as is required.",
+        "p_start_offset": 6912
+    },
+    {
+        "p_id": 40,
+        "p_text": "7. Warranty:",
+        "p_start_offset": 7647
+    },
+    {
+        "p_id": 41,
+        "p_text": "Each party warrants that it has the right to make the disclosures under this Agreement. Except as expressly stated in this Agreement, the Confidential Information is provided \u201cas is\u201d and accordingly no party makes any express or implied warranty or representation concerning its Confidential Information, or the accuracy or completeness of the Confidential Information.",
+        "p_start_offset": 7659
+    },
+    {
+        "p_id": 42,
+        "p_text": "8. Rights:",
+        "p_start_offset": 8028
+    },
+    {
+        "p_id": 43,
+        "p_text": "All Confidential Information will remain the property of the Disclosing Party. Nothing in this Agreement shall be construed to grant to Recipient any right, title or license either express or implied, under any patent, patent application, trademark, copyright, maskwork, trade secret, or other intellectual property right now or hereafter owned or controlled by the other party, except the limited right to carry out the Purpose.",
+        "p_start_offset": 8038
+    },
+    {
+        "p_id": 44,
+        "p_text": "9. Export:",
+        "p_start_offset": 8467
+    },
+    {
+        "p_id": 45,
+        "p_text": "The parties agree that no Confidential Information disclosed under this Agreement is intended to or will be exported or re-exported, directly or indirectly, to any destination restricted or prohibited by export control regulations without the required authorisation or license from the appropriate governmental or other regulatory authorities.",
+        "p_start_offset": 8477
+    },
+    {
+        "p_id": 46,
+        "p_text": "10. No Obligations:",
+        "p_start_offset": 8820
+    },
+    {
+        "p_id": 47,
+        "p_text": "This Agreement imposes no obligation, any offer by, or representation or warranty on either party to purchase, sell, manufacture, license, transfer, or otherwise dispose of technology, services, or products, and does not grant either one the right to demand the other the delivery of any information and that the exchange of information will always be optional for the parties.",
+        "p_start_offset": 8839
+    },
+    {
+        "p_id": 48,
+        "p_text": "11. Relationship:",
+        "p_start_offset": 9216
+    },
+    {
+        "p_id": 49,
+        "p_text": "This Agreement does not create any agency, partnership or joint venture relationship.",
+        "p_start_offset": 9233
+    },
+    {
+        "p_id": 50,
+        "p_text": "12. Severability:",
+        "p_start_offset": 9318
+    },
+    {
+        "p_id": 51,
+        "p_text": "If any provision of this Agreement, or the application of such provision, is invalid or unenforceable under any applicable statute or rule of law, the remaining provisions of this Agreement shall remain in full force and effect.",
+        "p_start_offset": 9335
+    },
+    {
+        "p_id": 52,
+        "p_text": "13. Governing Law and dispute resolution:",
+        "p_start_offset": 9563
+    },
+    {
+        "p_id": 53,
+        "p_text": "This Agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of Hong Kong. The parties agree that any dispute or claim that arises out of or in connection with this Agreement or its subject matter or formation (including non-contractual disputes or claims) shall be referred to and finally resolved by arbitration administered by the Hong Kong International Arbitration Centre under the Hong Kong International Arbitration Centre Administered Arbitration rules in force when the Notice of Arbitration is submitted.",
+        "p_start_offset": 9604
+    },
+    {
+        "p_id": 54,
+        "p_text": "The Recipient acknowledges that damages alone may not be an adequate remedy for the breach of any of the provisions of this Agreement. Accordingly, without prejudice to any other rights and remedies it may have, the Disclosing Party shall be entitled to seek the granting of equitable relief (including without limitation injunctive relief) concerning any threatened or actual breach of any of the provisions of this Agreement.",
+        "p_start_offset": 10282
+    },
+    {
+        "p_id": 55,
+        "p_text": "14. Term and Termination:",
+        "p_start_offset": 10709
+    },
+    {
+        "p_id": 56,
+        "p_text": "This Agreement shall continue from the \u201cEffective Date\u201d for the Term or until terminated by either party by giving thirty (30) days written notice to the other party of its intent to terminate this Agreement. Upon expiry or termination the Recipient shall: (i) cease using the Confidential Information, (ii) return or destroy the Confidential Information and all copies, notes or extracts thereof to the Discloser within ten (10) business days of receipt of request; and (iii) upon request of the Discloser, confirm in writing that the Recipient has complied with the obligation set forth in this paragraph. Termination of this Agreement shall not affect any accrued rights or remedies to which either party is entitled.",
+        "p_start_offset": 10734
+    },
+    {
+        "p_id": 57,
+        "p_text": "15. General:",
+        "p_start_offset": 11454
+    },
+    {
+        "p_id": 58,
+        "p_text": "Except as otherwise provided in this Agreement, no party may assign, sub-contract or deal in any way with, any of its rights or obligations under this agreement or any document referred to in it without written authorization of the other party. Clauses 1, 2, 3, 6, 7, 8, 9, 11, 13, 14 and 15 shall survive the termination of this Agreement. This Agreement constitutes the entire agreement between the parties and supersedes and extinguishes all previous drafts, agreements, arrangements and understandings between them, whether written or oral, relating to its subject matter. Each party agrees that it shall have no remedies in respect of any representation or warranty (whether made innocently or negligently) that is not set out in this Agreement. Each party agrees that its only liability in respect of those representations and warranties that are set out in this Agreement (whether made innocently or negligently) shall be for breach of contract. No variation of this Agreement shall be effective unless it is in writing and signed by each of the parties\u2019 authorised representatives.",
+        "p_start_offset": 11466
+    },
+    {
+        "p_id": 59,
+        "p_text": "IN WITNESS WHEREOF the parties have caused this Agreement to be executed by their duly authorised representatives.",
+        "p_start_offset": 12555
+    },
+    {
+        "p_id": 60,
+        "p_text": "Test Co Limited",
+        "p_start_offset": 12669
+    },
+    {
+        "p_id": 61,
+        "p_text": "Coca-Cola",
+        "p_start_offset": 12684
+    },
+    {
+        "p_id": 62,
+        "p_text": "SIGNED:",
+        "p_start_offset": 12693
+    },
+    {
+        "p_id": 63,
+        "p_text": "SIGNED:",
+        "p_start_offset": 12700
+    },
+    {
+        "p_id": 64,
+        "p_text": "NAME:",
+        "p_start_offset": 12707
+    },
+    {
+        "p_id": 65,
+        "p_text": "NAME:",
+        "p_start_offset": 12712
+    },
+    {
+        "p_id": 66,
+        "p_text": "TITLE:",
+        "p_start_offset": 12717
+    },
+    {
+        "p_id": 67,
+        "p_text": "TITLE:",
+        "p_start_offset": 12723
+    },
+    {
+        "p_id": 68,
+        "p_text": "DATE:",
+        "p_start_offset": 12729
+    },
+    {
+        "p_id": 69,
+        "p_text": "DATE:",
+        "p_start_offset": 12734
+    }
+]
