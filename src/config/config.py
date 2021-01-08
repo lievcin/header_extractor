@@ -12,3 +12,7 @@ regex = [
 	{ "pattern": "\d+ [A-Z ]+" },
 	{ "pattern": "[A-Z][A-Z \-]+$|\d+. [A-Z][a-zA-Z ]+" }
 ]
+
+jaccard = {
+	"threshold": 0.33
+}
