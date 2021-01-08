@@ -20,6 +20,7 @@
 - NER? I expect the headers to not have entities, just general title text like AGREEMENT, but not specifics, this would be clarified in the clauses.
 - POS? maybe most of the titles (once we remove punctuation and numbers) are really just NOUN,ADJ,DET,ADP?
 - If we have a sequence of sentences, maybe we would find that a header is likely to be referenced in the sentence that follows? Here probably even Jaccard might yield a good enough result?
+- RNN model if each paragraph is labelled as header/not-header. This would make it into a classification task.
 
 ## things to test/validate
 - [] input file type
