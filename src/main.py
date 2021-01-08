@@ -24,3 +24,4 @@ if __name__ == '__main__':
         sys.exit(-1)
 
     parsed = Parser(args.input_file)
+    print("Headers found at indices: {}".format(parsed.headers_indices))
