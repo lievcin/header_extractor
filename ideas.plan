@@ -23,8 +23,8 @@
 - RNN model if each paragraph is labelled as header/not-header. This would make it into a classification task.
 
 ## things to test/validate
-- [] input file type
-- [] input file content to comply with a json schema
+- [x] input file type
+- [x] input file content to comply with a json schema
 - [] black code
 
 ## report/document (html/pdf/md?)
