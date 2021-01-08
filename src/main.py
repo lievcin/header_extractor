@@ -9,6 +9,9 @@ from parsers.jaccard import JaccardParser
 
 logger = logging.getLogger(__name__)
 
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
 if __name__ == '__main__':
     usage = """
     Usage: #TODO
@@ -16,8 +19,8 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument("-if", "--input_file", type=str, required=True)
-    parser.add_argument("-of", "--output_file", type=str, required=False)
     parser.add_argument("-p", "--parser", type=str, required=False, default="regex")
+    parser.add_argument("-ot", "--output_type", type=str, required=False, default="index")
 
     args = parser.parse_args()
 
@@ -33,4 +36,13 @@ if __name__ == '__main__':
         logger.error("parser option not recognized, valid options are 'regex' or 'jaccard'")
         sys.exit(-1)
 
-    print("Headers found at indices: {}".format(parsed.headers_indices))
+    if args.output_type=="index":
+        print("Headers found at indices:")
+        pp.pprint(parsed.headers_indices)
+    elif args.output_type=="text":
+        print("Headers text found in document:")
+        for header in parsed.headers_text:
+            pp.pprint(header)
+    else:
+        logger.error("output format option not recognized, valid options are 'index' or 'text'")
+        sys.exit(-1)
