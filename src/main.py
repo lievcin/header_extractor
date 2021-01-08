@@ -1,6 +1,5 @@
 import argparse
 import logging
-import os
 import sys
 
 from pathlib import Path
@@ -15,14 +14,32 @@ pp = pprint.PrettyPrinter(indent=4)
 
 if __name__ == "__main__":
     usage = """
-    Usage: #TODO
+    Usage: This extractor can identify headers in NDA style agreements.
     """
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-if", "--input_file", type=str, required=True)
-    parser.add_argument("-p", "--parser", type=str, required=False, default="regex")
     parser.add_argument(
-        "-ot", "--output_type", type=str, required=False, default="index"
+        "-if",
+        "--input_file",
+        type=str,
+        required=True,
+        help="full path to the file to be parsed.",
+    )
+    parser.add_argument(
+        "-p",
+        "--parser",
+        type=str,
+        required=False,
+        default="regex",
+        help="parsed to use, regex or jaccard.",
+    )
+    parser.add_argument(
+        "-ot",
+        "--output_type",
+        type=str,
+        required=False,
+        default="index",
+        help="output headers or indices.",
     )
 
     args = parser.parse_args()
