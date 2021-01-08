@@ -1,3 +1,4 @@
+
 # Some overall ideas on how to tackle this task, as well as a TODO list of items to cover.
 
 - Input json file (as a path to the CLI). Maybe this is a drag & drop to get the full file path
@@ -35,11 +36,10 @@
 	- [] how would you assess the quality of your solution,
 	- [] other inference methods might be appropriate
 
-### literature
+## literature
 
-[Header and Footer Extraction by Page-Association](https://www.hpl.hp.com/techreports/2002/HPL-2002-129.pdf)
-[Developing a Section Labeler for Clinical Documents](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4419880/pdf/1985976.pdf)
-[PDF text classification to leverage information extraction from publication reports](https://www.sciencedirect.com/science/article/pii/S153204641630017X)
-[PERFORMANCE MEASURES FOR INFORMATION EXTRACTION](http://ccc.inaoep.mx/~villasen/bib/slot%20error%20rate.pdf)
-[Metrics for Evaluation of Ontology-based Information Extraction](http://ceur-ws.org/Vol-179/eon2006maynardetal.pdf)
-
+-	[Header and Footer Extraction by Page-Association](https://www.hpl.hp.com/techreports/2002/HPL-2002-129.pdf)
+-	[Developing a Section Labeler for Clinical Documents](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4419880/pdf/1985976.pdf)
+-	[PDF text classification to leverage information extraction from publication reports](https://www.sciencedirect.com/science/article/pii/S153204641630017X)
+-	[PERFORMANCE MEASURES FOR INFORMATION EXTRACTION](http://ccc.inaoep.mx/~villasen/bib/slot%20error%20rate.pdf)
+-	[Metrics for Evaluation of Ontology-based Information Extraction](http://ceur-ws.org/Vol-179/eon2006maynardetal.pdf)
