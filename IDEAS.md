@@ -29,11 +29,11 @@
 
 ## report/document (html/pdf/md?)
 - solution
-	- [] overall description
-	- [] how you arrived at it
-	- [] known limitations
+	- [x] overall description
+	- [x] how you arrived at it
+	- [x] known limitations
 - Given a larger dataset...
-	- [] how would you assess the quality of your solution,
+	- [x] how would you assess the quality of your solution,
 	- [] other inference methods might be appropriate
 
 ## literature
