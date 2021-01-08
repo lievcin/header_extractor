@@ -24,7 +24,7 @@
 ## things to test/validate
 - [x] input file type
 - [x] input file content to comply with a json schema
-- [] black code
+- [x] black code
 
 ## report/document (html/pdf/md?)
 - solution
