@@ -26,6 +26,7 @@
 - [x] input file type
 - [x] input file content to comply with a json schema
 - [x] black code
+- [] Dockerfile
 
 ## report/document (html/pdf/md?)
 - solution

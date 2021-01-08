@@ -20,6 +20,7 @@ In the latter case, the medical documents that the authors work with also benefi
 - consultation report
 
 This, intuitively seems similar to legal documents, where within a type of contract, similar headers and sections could be found, perhaps with variations of formatting and numbering.
+*DISCLOSURE:* The time spent on this research was very limited, so the information in this section should be taken with a pinch of salt!
 
 #### metrics found in literature
 Precision, Recall and F1-score seem to be widely used for information retrieval tasks. However, it might be worth considering other metrics like Slot Error Rate (SER) suggested in [Performance Measures for Information Extraction](literature/slot_error_rate.pdf).
@@ -47,9 +48,9 @@ At a high level, the project builds parsers that are able to read in the text in
 ### Patterns
 task stament says: *"Legal agreements are typically quite structured documents. They usually open with a title and a declaration of the parties to the agreement. This is often followed by a declaration section where key terms are defined to disambiguate later clauses."*
 Given that both documents headers displayed patterns that could be used, such as:
-- *NUM + SPACE + TEXT (all caps)*.
+- **NUM + SPACE + TEXT (all caps)**.
 or
-- *NUM + . + (NUM) + TEXT (any case) + :*
+- **NUM + . + (NUM) + TEXT (any case) + :**
 it made sense to try a simple parser that could use those regular expressions to extract headers. This would be fast to execute in inference mode as well.
 
 ### Co-reference
@@ -58,6 +59,7 @@ The Jaccard parser was created as a quick and dirty co-reference identified betw
 ### Known limitations
 - One file at a time, but it might be useful to be able to run against a folder full of parsed files in batch.
 - Due to the limited sample size, so it's would be unreasonable to expect good performance on a larger dataset of NDA's as the strategies implemented will surely not cover the full spectrum of legal documents available.
+- The project only identifies top level headers and not other subsections or items of interest. For deeper analysis and usefulness, a hierarchy of headers should be extracted.
 
 ## 3. Future work
 
@@ -80,6 +82,4 @@ In no particular order.
 	- Embedding layer / Pretrained embeddings like Glove
 	- LSTM layer
 	- CRF or just softmax.
-
-## Conclusion
-Hire me? :)
+- **Naive Bayes:** given a corpus of labelled examples, prior probabilities could be calculated for the presence of specific headers depending on their location in the document, as well as the probabilistic sequential order for section headers. For example the likelihood of DISCLOSURE header appearing near the beginning of the document, as well as after/before other common headers.
