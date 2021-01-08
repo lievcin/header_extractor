@@ -1,7 +1,9 @@
 import logging
+
 logger = logging.getLogger(__name__)
 
 import sys
+
 sys.path.append(".")
 
 from src.config import config
@@ -9,7 +11,9 @@ from parsers.base import Parser
 
 
 import re
+
 HEADER_PATTERNS = "|".join([r["pattern"] for r in config.regex])
+
 
 class RegexParser(Parser):
     """
@@ -17,6 +21,7 @@ class RegexParser(Parser):
     Args:
         path: path to the file file to load
     """
+
     def __init__(self, path):
         super().__init__(path)
 

@@ -1,5 +1,6 @@
 import logging
 import sys
+
 sys.path.append(".")
 
 import json
@@ -8,12 +9,14 @@ from src.config import config
 
 logger = logging.getLogger(__name__)
 
+
 class Parser(object):
     """
     #TODO
     Args:
         path: path to the file file to load
     """
+
     def __init__(self, path):
         self.path = path
         self.data = self._validate_json(path)
@@ -33,7 +36,11 @@ class Parser(object):
             try:
                 jsonschema.validate(instance=item, schema=config.schema)
             except jsonschema.exceptions.ValidationError as e:
-                logger.error("Input file contains records that don't match the required schema: {}".format(e))
+                logger.error(
+                    "Input file contains records that don't match the required schema: {}".format(
+                        e
+                    )
+                )
 
     @property
     def headers_text(self):
