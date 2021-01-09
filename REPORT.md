@@ -76,10 +76,12 @@ Another potentially interesting metric could be the **[Matthews Correlation Coef
 ### Potential new strategies
 In no particular order.
 - **Counting:** maybe there's a limited number of headers for NDAs and some simple frequency count would surface them? Given a large corpus of different NDAs and simplifying the text might yield a comprehensive lookup dictionary.
+- **Text length:** Intuition, from other styles of text like prose, that headers are shorter then the text around them.
 - **NER:** Headers might not contain any recognisable entities and use very general language. Words such as agreement, disclosure, material. But non-header paragraphs might need to be more specific and name items/places/dates/products.
 - **POS:** Similar intuition to the item above, maybe most of the titles (once punctuation and numbers are removed) are really just NOUN,ADJ,DET,ADP.
 - **RNN model:** given a larger corpus, and labelled paragraphs as *header/not-header*, then sequence models could be explored, here the paragraph could be passed through an architecture like this:
 	- Embedding layer / Pretrained embeddings like Glove
 	- LSTM layer
 	- CRF or just softmax.
+	My intuition is that pretrained embeddings be it Glove or even BERT would not be very useful here, since semantically  headers and content are quite close together...
 - **Naive Bayes:** given a corpus of labelled examples, prior probabilities could be calculated for the presence of specific headers depending on their location in the document, as well as the probabilistic sequential order for section headers. For example the likelihood of DISCLOSURE header appearing near the beginning of the document, as well as after/before other common headers.
