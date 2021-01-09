@@ -43,9 +43,11 @@ Assumption you already have Python 3 on your machine, if not please install.
 -   from the project root folder, create environment
     `virtualenv header_extractor`
 -  activate the environment
-    ` source header_extractor/bin/activate`
+    `source header_extractor/bin/activate`
 -   install the necessary packages
     `pip install -r requirements.txt`
+-   make environment available to jupyter notebook
+    `python -m ipykernel install --user --name=header_extractor`
 
 #### 2. Docker
 Install docker on your machine, if not already installed.
@@ -54,6 +56,14 @@ Install docker on your machine, if not already installed.
 - run a container in interactive mode.
 `docker run -it -v HOST_DOCUMENTS_PATH:/LOCAL_DOCUMENTS_PATH thoughtriver`
 where `HOST_DOCUMENTS_PATH` is the folder where the documents to be processed are. Since the container needs access to this folder, the folder needs to be mounted to the container volume.  In practice `HOST_DOCUMENTS_PATH` and `LOCAL_DOCUMENTS_PATH` could have the same name.
+
+If access to the notebooks is required, then start a container with port forward
+`docker run -it  -p 8888:8888 thoughtriver`
+once inside the container execute
+`jupyter notebook --ip 0.0.0.0 --port 8888 --no-browser --allow-root`
+which confirm that jupyter server has started and show the token. the output will look similar to this:
+`http://127.0.0.1:8888/?token=SOME_LONG_STRING`
+you should be able to access it now in your browser
 
 ## Usage
 To use the CLI, issue a command to the `src/main.py` file in the project.
