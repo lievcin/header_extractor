@@ -13,6 +13,13 @@ This is the folder structure:
     │
     ├── IDEAS.md                   <- General ideas file created when considering this task, vague to-do list to keep.
     │
+    ├── REPORT.md                  <- Information about the project approach, ideas, limitations, literature and future work.
+    ├── REPORT.html                <- Same as above, but HTML, in case is more convenient
+    │
+    ├── Dockerfile                 <- Docker setup file
+    │
+    ├── literature                 <- Folder containing a few papers that were found during research.
+    │
     ├── notebooks
     │  ├── Jaccard                 <- experiments with Jaccard(ish) similarity.
     │  │
@@ -27,7 +34,8 @@ This is the folder structure:
     │  │   ├── base
     │  │   ├── jaccard
     │  │   └── regex
-    │  └── main.py                <- entry point for the script, what gets called when using the CLI.
+    │  ├── main.py                 <- Main script to process a user's file
+    │  └── sample.py               <- Script to process a sample, in case another document is not available.
     │
     └── requirements.txt           <- The requirements file for reproducing the code environment.
 

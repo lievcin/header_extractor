@@ -14,7 +14,7 @@ pp = pprint.PrettyPrinter(indent=4)
 
 if __name__ == "__main__":
     usage = """
-    Usage: This extractor can identify headers in NDA style agreements.
+    Usage: This extractor identifies headers in a sample NDA document in the project.
     """
 
     parser = argparse.ArgumentParser()
