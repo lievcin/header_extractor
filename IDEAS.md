@@ -10,7 +10,7 @@
 - [x] obv parse entries and determine something... :)
 - for now there seems to be two patterns of:
 	- [x] start with *NUM + SPACE + TEXT (all caps)* without brackets.
-	- [x] start wuth *NUM + . + TEXT (Camelcase/no casing) + :*
+	- [x] start with *NUM + . + TEXT (Camelcase/no casing) + :*
 - [x] maybe have a config/yaml file with regex expressions the user can select and apply?
 - [] if user doesn't want to use regex from config file, include an optional param in CLI?
 
@@ -26,7 +26,7 @@
 - [x] input file type
 - [x] input file content to comply with a json schema
 - [x] black code
-- [] Dockerfile
+- [x] Dockerfile
 
 ## report/document (html/pdf/md?)
 - solution

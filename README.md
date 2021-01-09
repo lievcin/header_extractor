@@ -1,4 +1,5 @@
 
+
 # ThoughtRiver take-home assignment:
 
 This project parses and extracts headers from NDA type agreements. It provides a CLI where the user can drop a file and
@@ -32,8 +33,11 @@ This is the folder structure:
 
 
 ## Setup
-The project requires Python3 and a few libraries and it is therefore recommended that a code environment is created for it.
 
+First, copy the project files into a folder and, in the terminal go to this folder. Then, you have two options to get started, since the project requires Python 3.6 and a few libraries you may not have on your machine. Follow one of the following:
+
+#### 1. Local code environment
+Assumption you already have Python 3 on your machine, if not please install.
 -   Install virtualenv (if needed) :
     `pip3 install virtualenv`
 -   from the project root folder, create environment
@@ -43,15 +47,34 @@ The project requires Python3 and a few libraries and it is therefore recommended
 -   install the necessary packages
     `pip install -r requirements.txt`
 
+#### 2. Docker
+Install docker on your machine, if not already installed.
+- create the image
+ `docker build -t thoughtriver .`
+- run a container in interactive mode.
+`docker run -it -v HOST_DOCUMENTS_PATH:/LOCAL_DOCUMENTS_PATH thoughtriver`
+where `HOST_DOCUMENTS_PATH` is the folder where the documents to be processed are. Since the container needs access to this folder, the folder needs to be mounted to the container volume.  In practice `HOST_DOCUMENTS_PATH` and `LOCAL_DOCUMENTS_PATH` could have the same name.
+
 ## Usage
-In order to use the cli issue the following command, use the following example script from the root folder of the project (or prepending the necessary path):
+To use the CLI, issue a command to the `src/main.py` file in the project.
+- If using the code environment setup:
+`python3 src/main.py --input_file INPUT_FILE_PATH` from the project folder or
+`python3 PATH_TO_PROJECT/header_extractor/src/main.py --input_file INPUT_FILE_PATH` from outside the folder.
 
-`python3 src/main.py --input_file INPUT_FILE_PATH`
-or
-`python3 src/main.py --if INPUT_FILE_PATH`
+- If using the Docker setup:
+inside the **Docker console**
+`python3 src/main.py -if LOCAL_DOCUMENTS_PATH/FILE.json`
 
-where INPUT_FILE_PATH is the full path to the JSON file to parse.
-
+#### mandatory parameters:
+- `-if/--input_file` path to the file to process.
 #### optional parameters:
 - `-p/--parser` select between a `regex` or `jaccard` parsing strategy, defaults to `regex`.
 - `-ot/--output_type` select to output `index` or `text` of headers, defaults to `index`.
+
+### Sample file
+This option exists in case the directory with documents is not made available to either Docker or the local project environment. In this case the mandatory `input_file` attribute is not required, and instead the `document-headers/files/letter.json` file is used. The other parameters remain unchanged.
+
+#### A few example commands
+`python3 src/sample.py -p jaccard`
+`python3 src/sample.py -p jaccard -ot text`
+`python3 src/sample.py -ot text`
