@@ -1,2 +1,2 @@
-*.html linguist-vendored=false
 *.ipynb linguist-language=Python
+*.html linguist-vendored=false
