@@ -1,2 +1,3 @@
 *.ipynb linguist-language=Python
 *.html linguist-detectable=false
+REPORT.html linguist-detectable=false
