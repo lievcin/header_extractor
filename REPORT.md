@@ -1,7 +1,7 @@
 # REPORT
 
 ## 0. Task statement
-The goal of this task is to produce an algorithm that will extract headers from a document. The implementation should take the provided JSON format as input. Please provide your solution with an interface (with suitable methods or functions) that takes the document as input and returns a list of the indices of paragraphs containing headers.
+The goal of this task is to produce an algorithm that will extract headers from a document. The implementation should take the provided JSON format as input. Solution is provided with an interface (with suitable methods or functions) that takes the document as input and returns a list of the indices of paragraphs containing headers.
 
 ### Literature review
 A few resources were found during the research stage of the project.

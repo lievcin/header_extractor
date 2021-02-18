@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    SAMPLE_FILE = "document-headers/files/letter.json"
+    SAMPLE_FILE = "reference-files/letter.json"
     if not Path(SAMPLE_FILE).is_file():
         logger.error("Sample file doesn't exist. Cannot run sample, please verify that the project was fully copied.")
         sys.exit(-1)

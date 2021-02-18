@@ -1,9 +1,11 @@
-
-
-# ThoughtRiver take-home assignment:
+## NDA Header extractor:
 
 This project parses and extracts headers from NDA type agreements. It provides a CLI where the user can drop a file and
 get the indices (or text) of the headers, as well as select one of two strategies to do so.
+
+Legal agreements are typically quite structured documents. They usually open with a title and a declaration of the parties to the agreement. This is often followed by a declaration section where key terms are defined to disambiguate later clauses.
+
+For reference, two documents in a JSON format and the source file that they were derived from are in the reference-files folder.
 
 
 This is the folder structure:
@@ -60,13 +62,13 @@ Assumption you already have Python 3 on your machine, if not please install.
 #### 2. Docker
 Install docker on your machine, if not already installed.
 - create the image
- `docker build -t thoughtriver .`
+ `docker build -t tr .`
 - run a container in interactive mode.
-`docker run -it -v HOST_DOCUMENTS_PATH:/LOCAL_DOCUMENTS_PATH thoughtriver`
+`docker run -it -v HOST_DOCUMENTS_PATH:/LOCAL_DOCUMENTS_PATH tr`
 where `HOST_DOCUMENTS_PATH` is the folder where the documents to be processed are. Since the container needs access to this folder, the folder needs to be mounted to the container volume.  In practice `HOST_DOCUMENTS_PATH` and `LOCAL_DOCUMENTS_PATH` could have the same name.
 
 If access to the notebooks is required, then start a container with port forward
-`docker run -it  -p 8888:8888 thoughtriver`
+`docker run -it  -p 8888:8888 tr`
 once inside the container execute
 `jupyter notebook --ip 0.0.0.0 --port 8888 --no-browser --allow-root`
 which confirm that jupyter server has started and show the token. the output will look similar to this:
@@ -90,7 +92,7 @@ inside the **Docker console**
 - `-ot/--output_type` select to output `index` or `text` of headers, defaults to `index`.
 
 ### Sample file
-This option exists in case the directory with documents is not made available to either Docker or the local project environment. In this case the mandatory `input_file` attribute is not required, and instead the `document-headers/files/letter.json` file is used. The other parameters remain unchanged.
+This option exists in case the directory with documents is not made available to either Docker or the local project environment. In this case the mandatory `input_file` attribute is not required, and instead the `reference-files/letter.json` file is used. The other parameters remain unchanged.
 
 #### A few example commands
 `python3 src/sample.py -p jaccard`
